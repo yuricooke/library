@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.point {
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid blueviolet;
+  height: 50px;
+  width: 50px;
+}
