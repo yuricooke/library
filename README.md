@@ -24,32 +24,14 @@ texto <sub>subsctrito</sub>\
 
 ### Third Level
 
-<hr>
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
 
 #### Fourth Level
 
 <style>
-    
-
-    *{
-        --primary: var(--primaryLight, var(--primaryDark));
-        --accent: var(--accentLight, var(--accentDark));
-    }
-
-    :root{
-        --primaryLight: blue;
-        --accentLight: green;
-    }
-  
-  @media (prefers-color-scheme: dark) {
-    :root {
-        --primaryDark: red;
-        --accentDark: orange;
-        }
-    }
 
     h1{
-        color:var(--primary);
+        color:red;
     }
     hr{
         background-color:var(--accent);
